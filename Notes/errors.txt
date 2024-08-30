@@ -1,0 +1,24 @@
+node version 20.10.0
+
+************************************************************************
+Build failed.
+@parcel/transformer-js: Browser scripts cannot have imports or exports.
+
+This error is because App.js is being taken as normal browser script and not as a module file. 
+Its not a normal JS file. give 
+<script type="module" src="./App.js" > </script>
+************************************************************************
+npm parcel build index.html
+
+Target "main" declares an output file path of "App.js" which does not 
+match the compiled bundle type "html".
+
+goto package.json and remove "main" :"App.js" 
+this is because parcel is using index.html for the main file and package.json has "main":"App.js" which is conflicting. 
+************************************************************************
+
+_________________put this in notebook_________________________
+
+{} in JSX any JS can be written inside this. 
+and in case of malicious data inside {} JSX sanitizes it for us. - this attack is called CrossSiteScripting attacks. 
+<Title /> same as <Title> </Title> same as {Title()} -- seee the {} braces used. 
