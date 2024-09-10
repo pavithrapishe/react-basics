@@ -22,3 +22,12 @@ _________________put this in notebook_________________________
 {} in JSX any JS can be written inside this. 
 and in case of malicious data inside {} JSX sanitizes it for us. - this attack is called CrossSiteScripting attacks. 
 <Title /> same as <Title> </Title> same as {Title()} -- seee the {} braces used. 
+
+Why is css stlying bad ? look and feel / css file gets cached, and it contributes to internet traffic. 
+
+To make prettier work put ".prettierrc.json" file in the root. and place the basic settings in it. .
+
+props : properties
+
+functional components : functon 
+props : arguments 
