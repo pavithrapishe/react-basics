@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
 .header {
     display: flex;
     justify-content: space-between;
@@ -52,3 +57,28 @@ img.restaurant-image {
     margin: 10px;
     cursor: pointer;
 }
+
+.shimmer-card {
+    width: 200px;
+    height: 400px;
+    background-color: #f0f0f0;
+    margin: 5px;
+}
+
+.shimmer-container {
+    display: flex;
+}
+
+.login-btn {
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.filter {
+    display: flex;
+}
+
+.user-card {
+    padding: 10px;
+    border: 1px solid black;
+} */

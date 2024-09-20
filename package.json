@@ -1,29 +1,44 @@
 {
-  "name": "react-basics",
-  "version": "1.0.0",
-  "description": "react basics",
-  "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html",
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pavithrapishe/react-basics.git"
-  },
-  "keywords": [],
-  "author": "pavithrapishe",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pavithrapishe/react-basics/issues"
-  },
-  "homepage": "https://github.com/pavithrapishe/react-basics#readme",
-  "devDependencies": {
-    "parcel": "^2.12.0",
-    "process": "^0.11.10"
-  },
-  "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  }
+    "name": "react-basics",
+    "version": "1.0.0",
+    "description": "react basics",
+    "scripts": {
+        "start": "parcel index.html",
+        "build": "parcel build index.html",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pavithrapishe/react-basics.git"
+    },
+    "keywords": [],
+    "author": "pavithrapishe",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/pavithrapishe/react-basics/issues"
+    },
+    "homepage": "https://github.com/pavithrapishe/react-basics#readme",
+    "devDependencies": {
+        "@babel/core": "^7.25.2",
+        "@babel/preset-env": "^7.25.4",
+        "@testing-library/jest-dom": "^6.5.0",
+        "@testing-library/react": "^16.0.1",
+        "babel-jest": "^29.7.0",
+        "jest": "^27.5.1",
+        "parcel": "^2.12.0",
+        "postcss": "^8.4.47",
+        "process": "^0.11.10",
+        "tailwindcss": "^3.4.11"
+    },
+    "dependencies": {
+        "@babel/preset-react": "^7.24.7",
+        "@reduxjs/toolkit": "^2.2.7",
+        "autoprefixer": "^9.8.8",
+        "postcss-cli": "^11.0.0",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-redux": "^9.1.2",
+        "react-router-dom": "^6.26.2",
+        "react-scripts": "^5.0.1"
+    }
 }
