@@ -7,7 +7,7 @@ import ErrorPage from './components/ErrorPage'
 
 import RestaurantMenu from './components/RestaurantMenu'
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom'
-import RestaurantMenu from './components/RestaurantMenu'
+
 import UserContext from './utils/UserContext'
 import { useState } from 'react'
 

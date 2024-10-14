@@ -38,7 +38,7 @@ const Body = () => {
 
     if (!onlineStatus) return <h1> You are offline!!</h1>
 
-    console.log('list ', listOfRestaurants)
+    // console.log('list ', listOfRestaurants)
 
     return listOfRestaurants.length === 0 ? (
         <Shimmer></Shimmer>
@@ -48,6 +48,7 @@ const Body = () => {
                 <div className="search m-4 p-4">
                     <input
                         type="text"
+                        data-testid="searchInput"
                         className=" border border-solid border-black"
                         value={searchText}
                         onChange={(e) => setSearchText(e.target.value)}

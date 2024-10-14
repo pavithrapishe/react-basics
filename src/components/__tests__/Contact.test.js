@@ -6,6 +6,22 @@ import '@testing-library/jest-dom'
 describe('Contact Us Page test cases', () => {
     // test or it one and the same.
 
+    beforeAll(() => {
+        console.log('before all test cases')
+    })
+
+    beforeEach(() => {
+        console.log('before each test case')
+    })
+
+    afterAll(() => {
+        console.log('after all test cases')
+    })
+
+    afterEach(() => {
+        console.log('after each test case')
+    })
+
     it('Should load Contact Us component', () => {
         render(<Contact />)
 

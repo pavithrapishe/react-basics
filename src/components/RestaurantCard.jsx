@@ -4,9 +4,13 @@ const RestaurantCard = (props) => {
     const { resData } = props
     const { name, cuisines, avgRating, sla } = resData?.info
 
+    // console.log(resData)
     /// destructuring props on the fly
     return (
-        <div className="m-4 p-4 w-[250px] rounded-lg bg-gray-100 hover:bg-gray-200">
+        <div
+            data-testid="resCard"
+            className="m-4 p-4 w-[250px] rounded-lg bg-gray-100 hover:bg-gray-200"
+        >
             {/* inline styling takes object with {{}} */}
             <img
                 className="rounded-lg"

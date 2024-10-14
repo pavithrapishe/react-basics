@@ -17,6 +17,7 @@ const cartSlice = createSlice({
             state.items.length = 0
             // state.items = [] // this wont work because we are just adding a reference to it. and not mutating it.
             // its not the same state as original its a different state. Its a local copy thats being modified.
+
             // here if you console log it gives a proxy object. It doesnt give the actual value. To console log you have to do
             // current(state) import current from reduxjs/toolkit
 
